@@ -18,5 +18,11 @@ public class Main {
         System.out.println(arr[0] + " , " + arr[1]+" , " + arr[2]);
         System.out.println(fractions[0]+" , " + fractions[1]+" , " + fractions[2]);
         System.out.println(apples[0] + " , " + apples[1]);
+
+        //Распечатайте на отдельной строчке элементы каждого массива в обратном порядке через запятую. В конце строки запятую ставить не надо.
+        System.out.println("Задача 3");
+        System.out.println(arr[2] + " , " + arr[1]+" , " + arr[0]);
+        System.out.println(fractions[2]+" , " + fractions[1]+" , " + fractions[0]);
+        System.out.println(apples[1] + " , " + apples[0]);
     }
 }
